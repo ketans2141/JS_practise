@@ -60,3 +60,27 @@ for(let i=10;i>=1;i--){
     console.log(i);
 }
 
+// print natural numbers 
+
+let d=parseInt(process.argv[5]);
+while(d<=10){
+    console.log(d);
+    d++;
+}
+
+// print the even numbers 
+
+let e=parseInt(process.argv[6]);
+while(e<=20){
+    if(e%2==0){
+        console.log(e);
+    }
+}
+
+// Print number in reverse order 
+
+let f=parseInt(process.argv[7]);
+while(f>=1){
+    console.log(f);
+    f--;
+}
